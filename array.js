@@ -63,7 +63,7 @@ let book6 = {
     }
     ]
 }
-console.log(book4, book5, book6)
+console.log(book4, book5, book6) 
 
 //    4) Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 let users=[
