@@ -83,43 +83,56 @@ console.log(users[0].password, users[1].password, users[2].password, users[3].pa
 // 2. Логічні розгалуження:
 //    1) Є змінна х, якій ви надаєте довільне числове значення. Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт
 //    при a, що дорівнює 1, 0, -3
-// let x = 1;
-// switch (x) {
-//     case x !==0:
-//         console.log("Вірно");
-//         break;
-//     case x=0:
-//         console.log("Невірно");        WHY IT DOESN'T WORK????????
-//         break;
-//     default:
-//         console.log("???")
-// }
+let x = 4;
+switch (x) {
+    case x !==0:
+        console.log("Вірно");
+        break;
+    case 0:
+        console.log("Невірно");
+        break;
+    default:
+        console.log("???")
+}
 
 let x1 = 1
 if (x1 !==0) {
     console.log("Вірно")
-}
-else {
+} else {
     console.log("Невірно")
 }
 let x2 = 0
 if (x2 !==0) {
     console.log("Вірно")
-}
-else {
+} else {
     console.log("Невірно")
 }
 let x3 = -3
 if (x3 !==0) {
     console.log("Вірно")
-}
-else {
+} else {
     console.log("Невірно")
 }
 
 //    2) Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число (в першу, другу, третю или
 //    четверту частину години).
-
+let time = 15
+switch (time) {
+    case time>0 && time<=15:
+        console.log("I чверть")
+        break
+    case time>15 && time<=30:
+        console.log("II чверть")
+        break
+    case time>30 && time<=45:
+        console.log("III чверть")
+        break
+    case time>45 && time<=60:
+        console.log("IV чверть")
+        break
+    default:
+        console.log("???")
+}
 
 
 //    3) У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
