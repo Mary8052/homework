@@ -1,0 +1,28 @@
+.box1 {
+    font-family: 'Rubik Pixels', cursive;
+}
+.box2 {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.box3 {
+    font-family: 'Dancing Script', cursive;
+}
+.box4 {
+    font-family: 'Fjalla One', sans-serif;
+}
+.box5 {
+    font-family: 'Indie Flower', cursive;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 21px;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
