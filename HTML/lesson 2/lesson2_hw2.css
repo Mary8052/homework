@@ -10,11 +10,14 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    transition: 1.5s;
-
+    transition: 1s linear;
 }
 .num:hover {
     background-color: darkgray;
-    transition: 1.5s;
+    transition: 1s linear;
     border-radius: 50%;
 }
+
+
+
+
