@@ -1,0 +1,115 @@
+/*--------------------all body----------------------------------*/
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+/*--------------------------------------- H O M E ------------------------------------------------*/
+/*--------------------header----------------------------------*/
+
+header {
+    height: 20vh;
+    background: rgba(83, 81, 81, 0.10);
+    display: flex;
+    align-items: center;
+}
+
+.headerDiv {
+    width: 50%;
+    margin-left: 50%;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #7A7070;
+}
+
+.active_link {
+    color: #3D6FB4;
+}
+/*--------------------all main----------------------------------*/
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*--------------------left part----------------------------------*/
+
+.leftPart {
+    width: 50%;
+    margin-left: 10%;
+}
+h1 {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.UP {
+    margin-bottom: 0;
+}
+
+.AWAY\! {
+    margin-top: 0;
+}
+
+p {
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*------------------------two button------------------------------*/
+
+button {
+    margin-right: 36px;
+}
+
+.button1 {
+    width: 150px;
+    height: 55px;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    background-color: white;
+}
+
+.button2 {
+    width: 130px;
+    height: 55px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: rgba(61, 111, 180, 0.29);
+}
+/*-----------------right part with img----------------------------*/
+
+.imgDiv {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+/*--------------------------------------- A B O U T ------------------------------------------------*/
+
+article h1 {
+    font-size: 70px;
+    margin-top: 72px;
+    margin-bottom: 46px;
+}
+
+article {
+    padding: 0 106px 0 148px;
+}
+
