@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 27px;
+    text-align: center;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 60px;
+    color: black;
+}
+
+
+
+#red {
+    height: 100vh;
+    background-color: #ff8475;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blue {
+    height: 100vh;
+    background-color: #99fffd;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#green {
+    height: 100vh;
+    background-color: #c5ff9f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
