@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+header {
+    height: 20vh;
+    background: rgba(83, 81, 81, 0.10);
+}
+
+.headerDiv {
+    font-size: 35px;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
