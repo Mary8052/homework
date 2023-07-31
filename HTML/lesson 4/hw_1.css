@@ -4,17 +4,93 @@ body {
 }
 
 div {
-    width: 40vw;
+    width: 34vw;
 }
 
 .top {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: black;
-
+    border: solid #D9D9D9;
+    margin-top: 40px;
+    border-width: 2px;
 }
 
 .instagram {
-    width: 100%;
+    width: 60%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #3D6FB4;
+    margin-bottom: 10px;
+}
+
+#information {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: solid #D9D9D9;
+    font-size: 16px;
+}
+
+#password {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: solid #D9D9D9;
+    font-size: 16px;
+}
+
+button {
+    width: 400px;
+    height: 45px;
+    background-color: #6abfff;
+    border: #95d4ff;
+    border-radius: 10px ;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.or {
+    color: #716B6B;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+svg {
+    width: 35px;
+    height: 35px;
+}
+
+.password_forgot {
+    font-size: 18px;
+    color: #3D6FB4;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #3D6FB4;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #D9D9D9;
+    margin-top: 20px;
+    font-size: 20px;
+    border-width: 2px;
+}
+
+.oblik {
+    margin-right: 5px;
 }
