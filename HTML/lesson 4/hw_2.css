@@ -43,18 +43,18 @@ p {
 }
 
 #login {
-    width: 350px;
+    width: 70%;
     height: 35px;
     margin-top: 15px;
 }
 
 #password {
-    width: 350px;
+    width: 70%;
     height: 35px;
 }
 
 .remember {
-    width: 350px;
+    width: 70%;
     height: 35px;
     display: flex;
     justify-content: space-between;
@@ -68,4 +68,8 @@ p {
     border-radius: 13px;
     border: solid 1px darkgray;
     background-color: #cce8e8;
+}
+
+p {
+    font-size: 25px;
 }
