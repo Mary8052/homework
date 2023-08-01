@@ -1,0 +1,71 @@
+body {
+    background-color: darkcyan;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    width: 33.3vw;
+    height: 40vh;
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    background-color: white;
+    opacity: 0.8;
+    width: 33.3vw;
+    height: 10vh;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    border-radius: 20px;
+    border: 2px solid darkcyan;
+    width: 33.3vw;
+    height: 50vh;
+}
+
+p {
+    margin: 0;
+}
+
+#login {
+    width: 350px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+#password {
+    width: 350px;
+    height: 35px;
+}
+
+.remember {
+    width: 350px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#enter {
+    width: 90px;
+    height: 30px;
+    border-radius: 13px;
+    border: solid 1px darkgray;
+    background-color: #cce8e8;
+}
