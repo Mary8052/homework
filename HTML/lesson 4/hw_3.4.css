@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+}
+
+.header {
+    width: 100vw;
+    height: 20vh;
+    background: #927D7D;
+}
