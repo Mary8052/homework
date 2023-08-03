@@ -9,3 +9,70 @@ body {
     height: 20vh;
     background: #927D7D;
 }
+
+.footer {
+    width: 100vw;
+    height: 20vh;
+    background: #BDBDBD;
+}
+
+.middle {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+}
+
+.left {
+    width: 20vw;
+    height: 60vh;
+    background: #817C7C;
+}
+
+.right {
+    width: 20vw;
+    height: 60vh;
+    background: #B7AEAE;
+}
+
+.center {
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.centerHeader {
+    width: 100%;
+    height: 20%;
+    background: #CCBEBE;
+}
+
+.centerFooter {
+    width: 100%;
+    height: 20%;
+    background: #CF6262;
+}
+
+.centerMiddle {
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.centerLeft {
+    width: 20%;
+    height: 100%;
+    background: #473434;
+}
+
+.centerCenter {
+    width: 60%;
+    height: 100%;
+    background: #A74848;
+}
+
+.centerRight {
+    width: 20%;
+    height: 100%;
+    background: #925A5A;
+}
