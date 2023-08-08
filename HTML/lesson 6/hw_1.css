@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-size: x-large;
+}
+
+.header {
+    width: 100vw;
+    height: 30vh;
+    background-color: #99fffd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+
+.left {
+    width: 70vw;
+    height: 70vh;
+    background-color: darkturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 30vw;
+    height: 70vh;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
