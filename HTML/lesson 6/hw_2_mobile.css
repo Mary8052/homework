@@ -1,0 +1,38 @@
+@media screen and (max-width: 400px){
+    .header {
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .main {
+        width: 100vw;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .leftPart {
+        width: 100vw;
+        height: 60vh;
+        flex-direction: column;
+    }
+
+    .cdePart {
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .rightPart {
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .headerLeft {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .leftLeft, .centerLeft, .rightLeft {
+        height: 100%;
+    }
+
+}
