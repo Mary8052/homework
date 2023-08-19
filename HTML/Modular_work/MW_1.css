@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 80px;
+    background: red;
+    display: flex;
+
+}
+
+.portfolio, .webStudio {
+    display: flex;
+    align-items: center;
+}
+
+.web {
+    font-size: 26px;
+    color: #2196F3;
+    letter-spacing: 0.78px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.studio {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.studioPortfolioContact {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
