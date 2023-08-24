@@ -1,3 +1,5 @@
+/*--------------------GENERAL---------------------*/
+
 body {
     margin: 0;
 }
@@ -10,10 +12,10 @@ a {
     text-decoration: none;
 }
 
+/*--------------------HEADER----------------------*/
+
 header {
-    width: 100vw;
     height: 80px;
-    background: red;
     display: flex;
 
 }
@@ -21,6 +23,12 @@ header {
 .portfolio, .webStudio {
     display: flex;
     align-items: center;
+}
+
+.webStudio {
+    width: 22.5vw;
+    display: flex;
+    justify-content: right;
 }
 
 .web {
@@ -51,4 +59,258 @@ header {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+}
+
+.studioPortfolioContactDiv {
+    width: 17.6vw;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5.8vw;
+}
+
+.email, .number {
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+}
+
+.email {
+    color: #2196F3;
+}
+
+.emailNumber {
+    margin-left: 21.5vw;
+    width: 19.1875vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*--------------------Ефективні рішення для вашого бізнесу (darkBlock)----------------------*/
+
+.darkBlock {
+    height: 640px;
+    background: #2F303A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textDarkBlock {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin-top: 250px;
+    margin-bottom: 30px;
+}
+
+.blueButton {
+    width: 216px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.textBlueButton {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+}
+
+/*--------------------DETAILS (ABOUT WORK)----------------------*/
+
+.details {
+    height: 766px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourSection {
+    width: 73.125%;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+
+.section {
+    width: 23.076923%;
+}
+
+.topTextSection {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.textSection {
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+
+}
+
+.middleTextFourSection {
+    color: #212121;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.pictureAboutWork {
+    width: 73.125%;
+    height: 294px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*--------------------OUR TEAM----------------------*/
+
+.ourTeam {
+    height: 648px;
+    background: #F5F4FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textOurTeam {
+    color: #212121;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.pictureAboutTeam {
+    width: 73.125vw;
+    height: 368px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamSection {
+    width: 23.076923%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+
+    /* material shadow v1 */
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.20), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.name {
+    color: #212121;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 10px;
+}
+
+.position {
+    color: #757575;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+/*--------------------FOOTER----------------------*/
+
+footer {
+    height: 252px;
+    background: #2F303A;
+}
+
+.footerExternal {
+    width: 27.875%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.footerInside {
+    width: 51.79372%;
+    height: 100%;
+}
+
+.webStudioFooter {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.adres {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+    margin-bottom: 9px;
+}
+
+.emailFooter {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+    margin-bottom: 9px;
 }
